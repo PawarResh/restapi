@@ -17,7 +17,7 @@ public class createAResource {
 		Random randomnum=new Random();
 		int randomNo = randomnum.nextInt(11177);
 		JSONObject jobj=new JSONObject();
-		jobj.put("createdBy","Pawan kr"+randomNo);
+		jobj.put("createdBy","raj kr"+randomNo);
 		jobj.put("projectName","Vkite"+randomNo);
 		jobj.put("status","completed");
 		jobj.put("teamSize",7);
