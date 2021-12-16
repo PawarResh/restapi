@@ -3,7 +3,7 @@ package responseValidation;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.generics.pojoLibrary;
+import com.rmgyantra.pojolib.pojoLibrary;
 
 import io.restassured.http.ContentType;
 
@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.*;
 
 public class multipleDataUsingDataProvider {
 	@Test(dataProvider="get_data")
-	public void getResources(String createdBy,String projectName,String status,String teamSize) {
+	public void getResources(String createdBy,String projectName,String status,int teamSize) {
 		
 		pojoLibrary pojoObject=new pojoLibrary(createdBy,projectName,status,teamSize);
 		given()

@@ -1,11 +1,14 @@
-package com.generics;
+package com.rmgyantra.pojolib;
 
 public class pojoLibrary {
 String createdBy;
 String projectName;
 String status;
-String teamSize;
-public pojoLibrary(String createdBy, String projectName, String status, String teamSize) {
+int teamSize;
+public pojoLibrary() {
+	
+}
+public pojoLibrary(String createdBy, String projectName, String status, int teamSize) {
 	this.createdBy = createdBy;
 	this.projectName = projectName;
 	this.status = status;
@@ -29,10 +32,10 @@ public String getStatus() {
 public void setStatus(String status) {
 	this.status = status;
 }
-public String getTeamSize() {
+public int getTeamSize() {
 	return teamSize;
 }
-public void setTeamSize(String teamSize) {
+public void setTeamSize(int teamSize) {
 	this.teamSize = teamSize;
 }	
 }

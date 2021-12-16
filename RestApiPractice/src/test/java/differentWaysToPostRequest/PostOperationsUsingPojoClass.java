@@ -2,7 +2,7 @@ package differentWaysToPostRequest;
 
 import org.testng.annotations.Test;
 
-import com.generics.pojoLibrary;
+import com.rmgyantra.pojolib.pojoLibrary;
 
 import io.restassured.http.ContentType;
 
@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.*;
 public class PostOperationsUsingPojoClass {
 	@Test
 	public void create(){
-pojoLibrary pojo=new pojoLibrary("Biswa","vtiger","completed","7");
+pojoLibrary pojo=new pojoLibrary("Biswa","vtiger","completed",7);
 
 given()
      .body(pojo)

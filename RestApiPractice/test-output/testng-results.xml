@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Project name is matching]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3976" started-at="2021-12-13T16:50:04 IST" finished-at="2021-12-13T16:50:08 IST">
+  <suite name="Default suite" duration-ms="62" started-at="2021-12-14T18:00:25 IST" finished-at="2021-12-14T18:00:25 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3976" started-at="2021-12-13T16:50:04 IST" finished-at="2021-12-13T16:50:08 IST">
-      <class name="Assignment.VeifyProName">
-        <test-method status="PASS" signature="verify()[pri:0, instance:Assignment.VeifyProName@28ac3dc3]" name="verify" duration-ms="3927" started-at="2021-12-13T16:50:04 IST" finished-at="2021-12-13T16:50:08 IST">
+    <test name="Default test" duration-ms="62" started-at="2021-12-14T18:00:25 IST" finished-at="2021-12-14T18:00:25 IST">
+      <class name="Assignment.AddSingleProjectWithCreatedStatus">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:Assignment.AddSingleProjectWithCreatedStatus@7fb9f71f]" name="configBS" is-config="true" duration-ms="1402" started-at="2021-12-14T18:00:24 IST" finished-at="2021-12-14T18:00:25 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Project name is matching]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- verify -->
-      </class> <!-- Assignment.VeifyProName -->
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="addSingleProjectWithCreatedStatus()[pri:0, instance:Assignment.AddSingleProjectWithCreatedStatus@7fb9f71f]" name="addSingleProjectWithCreatedStatus" duration-ms="0" started-at="2021-12-14T18:00:25 IST" finished-at="2021-12-14T18:00:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleProjectWithCreatedStatus -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:Assignment.AddSingleProjectWithCreatedStatus@7fb9f71f]" name="configAS" is-config="true" duration-ms="15" started-at="2021-12-14T18:00:25 IST" finished-at="2021-12-14T18:00:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- Assignment.AddSingleProjectWithCreatedStatus -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
