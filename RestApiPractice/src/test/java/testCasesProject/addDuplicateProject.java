@@ -28,7 +28,7 @@ public class addDuplicateProject {
 			 .then()
 			       .assertThat().statusCode(201)
 			       .assertThat().contentType(ContentType.JSON)
-			       
+			       .assertThat().statusCode(201)
 			 .log().all();
 			}
 }
